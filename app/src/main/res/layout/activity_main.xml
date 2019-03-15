@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2"
+    tools:ignore="ContentDescription"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:src="@drawable/bg3"
+        android:contentDescription="@null"
+        />
+
+
+
+    <Button
+        android:id="@+id/pesan"
+        android:layout_width="130dp"
+        android:layout_height="33dp"
+        android:text="Beli Sekarang"
+        android:contentDescription="@null"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnpesan"
+        android:textColor="#FFFFFF"
+        android:textSize="12dp"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@null"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="170dp"
+        >
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            app:cardCornerRadius="10dp"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/burger"
+                android:id="@+id/burger"
+                android:contentDescription="@null"
+                />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="97dp"
+                android:layout_marginStart="30dp"
+                >
+                <TextView
+                    android:id="@+id/info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Burger"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_marginStart="25dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Price"
+                        android:layout_marginStart="16dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rego"
+                        android:layout_marginStart="8dp"
+                        android:textStyle="italic"
+                        android:textColor="#FF4500"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_marginStart="20dp"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kentang"
+                android:id="@+id/kentang"
+                android:contentDescription="@null"
+                />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="97dp"
+                android:layout_marginStart="30dp"
+                >
+                <TextView
+                    android:id="@+id/info_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Kentang"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_marginStart="25dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Price"
+                        android:layout_marginStart="16dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rego2"
+                        android:layout_marginStart="8dp"
+                        android:textStyle="italic"
+                        android:textColor="#FF4500"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="330dp"
+        >
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view4"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            card_view:cardCornerRadius="4dp"
+
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kopi"
+                android:contentDescription="@null"
+                android:id="@+id/kopi"
+                android:padding="6dp"
+                />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="97dp"
+                android:layout_marginStart="30dp"
+                >
+                <TextView
+                    android:id="@+id/info_text4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Kopi"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_marginStart="25dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Price"
+                        android:layout_marginStart="16dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/utang"
+                        android:layout_marginStart="8dp"
+                        android:textStyle="italic"
+                        android:textColor="#FF4500"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_marginStart="20dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eskrim"
+                android:id="@+id/eskrim"
+                android:padding="2dp"
+                android:contentDescription="@null"
+                />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="97dp"
+                android:layout_marginStart="30dp"
+                >
+                <TextView
+                    android:id="@+id/info_text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/Eskrim"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:layout_marginStart="25dp"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Price"
+                        android:layout_marginStart="16dp"
+                        android:textSize="16sp"
+                        android:textStyle="italic"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gratis"
+                        android:layout_marginStart="8dp"
+                        android:textStyle="italic"
+                        android:textColor="#FF4500"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="508dp"
+        android:background="#FFFFFF"
+        android:padding="7dp"
+        >
+
+        <ImageButton
+
+            android:layout_marginLeft="20dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/home"
+            />
+
+        <ImageButton
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/location"
+            />
+
+        <ImageButton
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/payment"
+            />
+
+        <ImageButton
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/profil"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="70dp"
+        android:background="@drawable/chart"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="483dp"
+        />
+</RelativeLayout>

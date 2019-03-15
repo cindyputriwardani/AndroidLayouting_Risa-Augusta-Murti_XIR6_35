@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Burger">Pecel</string>
+    <string name="Kentang">Usus</string>
+    <string name="Kopi">Kopi</string>
+    <string name="Eskrim">Jamu</string>
+    <string name="Price">Price</string>
+    <string name="rego">10K</string>
+    <string name="rego2">5K</string>
+    <string name="utang">Utang</string>
+    <string name="gratis">Gratis</string>
+    <string name="intent">Ndang peseno</string>
+
+</resources>
